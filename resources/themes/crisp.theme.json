@@ -1,0 +1,128 @@
+{
+  "name": "Crisp (rainglow)",
+  "dark": true,
+  "author": "Dayle Rees",
+  "editorScheme": "/colors/crisp.xml",
+  "ui": {
+    "*": {
+      "background": "#302530",
+      "foreground": "#ffffff",
+      "infoForeground": "#4d3b4d",
+      "selectionBackground": "#fc6a0f",
+      "selectionForeground": "#ffffff",
+      "selectionInactiveBackground": "#221a22",
+      "selectionBackgroundInactive": "#ffffff",
+      "lightSelectionBackground": "#fc6a0f",
+      "lightSelectionForeground": "#ffffff",
+      "lightSelectionInactiveBackground": "#fc6a0f",
+      "lightSelectionInactiveForeground": "#ffffff",
+      "disabledBackground": "#302530",
+      "inactiveBackground": "#302530",
+      "disabledForeground": "#4d3b4d",
+      "disabledText": "#4d3b4d",
+      "inactiveForeground": "#4d3b4d",
+      "acceleratorForeground": "#ffffff",
+      "acceleratorSelectionForeground": "#ffffff",
+      "errorForeground": "#4b1717",
+      "disabledBorderColor": "#4d3b4d",
+      "focusColor": "#4d3b4d",
+      "focusedBorderColor": "#171717",
+      "separatorColor": "#302530",
+      "lineSeparatorColor": "#302530",
+      "modifiedItemForeground": "#fc6a0f"
+    },
+    "ActionButton": {
+      "hoverBackground": "#221a22",
+      "hoverBorderColor": "#1c161c",
+      "pressedBackground": "#1c161c",
+      "pressedBorderColor": "#1c161c"
+    },
+    "Button": {
+      "arc": 0,
+      "startBackground": "#221a22",
+      "endBackground": "#221a22",
+      "startBorderColor": "#1c161c",
+      "endBorderColor": "#1c161c",
+      "shadowColor": "#1c161c",
+      "default": {
+        "startBackground": "#fc6a0f",
+        "endBackground": "#fc6a0f",
+        "startBorderColor": "#1c161c",
+        "endBorderColor": "#1c161c",
+        "shadowColor": "#1c161c",
+        "foreground": "#ffffff"
+      }
+    },
+    "Borders": {
+      "color": "#1c161c",
+      "ContrastBorderColor": "#1c161c"
+    },
+    "ComboBox": {
+      "nonEditableBackground": "#221a22",
+      "ArrowButton": {
+        "nonEditableBackground": "#221a22"
+      }
+    },
+    "ComboPopup.border": "#1c161c",
+    "EditorPane.inactiveBackground": "#221a22",
+    "EditorTabs": {
+      "selectedForeground": "#ffffff",
+      "selectedBackground": "#221a22",
+      "underlineColor": "#221a22",
+      "inactiveMaskColor": "#302530",
+      "borderColor": "#1c161c"
+    },
+    "Link": {
+      "activeForeground": "#fc6a0f",
+      "hoverForeground": "#fc6a0f",
+      "pressedForeground": "#12404b",
+      "visitedForeground": "#12404b"
+    },
+    "Menu.borderColor": "#1c161c",
+    "MenuBar.borderColor": "#302530",
+    "NavBar.borderColor": "#302530",
+    "Notification": {
+      "borderColor": "#1c161c"
+    },
+    "Popup": {
+      "borderColor": "#1c161c",
+      "Toolbar.borderColor": "#221a22",
+      "Header.activeBackground": "#221a22",
+      "Header.inactiveBackground": "#221a22"
+    },
+    "ProgressBar": {
+      "progressColor": "#fc6a0f",
+      "indeterminateStartColor": "#fc6a0f",
+      "indeterminateEndColor": "#12404b"
+    },
+    "SearchEverywhere": {
+      "Tab": {
+        "selectedForeground": "#ffffff",
+        "selectedBackground": "#221a22"
+      },
+      "SearchField": {
+        "borderColor": "#221a22"
+      }
+    },
+    "StatusBar.borderColor": "#302530",
+    "ToolWindow": {
+      "Header": {
+        "borderColor": "#1c161c"
+      },
+      "HeaderTab": {
+        "selectedBackground": "#221a22",
+        "selectedInactiveBackground": "#221a22"
+      }
+    },
+    "Tree": {
+      "rowHeight": 24,
+      "selectionInactiveBackground": "#221a22"
+    },
+    "WelcomeScreen": {
+      "separatorColor": "#1c161c"
+    },
+    "Viewport": {
+      "background": "#221a22"
+    }
+  }
+}

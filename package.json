@@ -1,0 +1,27 @@
+{
+  "name": "jetbrains",
+  "version": "0.0.1",
+  "description": "Scripts to generate themes",
+  "main": "scripts/generate-themes.js",
+  "scripts": {
+    "generate-themes": "node scripts/generate-themes.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rainglow/jetbrains.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rainglow/jetbrains/issues"
+  },
+  "homepage": "https://github.com/rainglow/jetbrains#readme",
+  "private": true,
+  "dependencies": {
+    "deep-cleaner": "^1.2.0",
+    "fast-xml-parser": "^3.12.16",
+    "lodash": "^4.17.11",
+    "uuid": "^3.3.2",
+    "xml2json": "^0.11.2"
+  }
+}

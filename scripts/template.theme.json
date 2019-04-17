@@ -1,0 +1,281 @@
+{
+  "name": null,
+  "dark": null,
+  "author": "Dayle Rees",
+  "editorScheme": null,
+  "ui": {
+    "*": {
+      "background": null,
+      "foreground": null,
+      "infoForeground": null,
+      "selectionBackground": null,
+      "selectionForeground": null,
+      "selectionInactiveBackground": null,
+      "selectionBackgroundInactive": null,
+      "lightSelectionBackground": null,
+      "lightSelectionForeground": null,
+      "lightSelectionInactiveBackground": null,
+      "lightSelectionInactiveForeground": null,
+      "disabledBackground": null,
+      "inactiveBackground": null,
+      "disabledForeground": null,
+      "disabledText": null,
+      "inactiveForeground": null,
+      "acceleratorForeground": null,
+      "acceleratorSelectionForeground": null,
+      "errorForeground": null,
+      "disabledBorderColor": null,
+      "focusColor": null,
+      "focusedBorderColor": null,
+      "separatorColor": null,
+      "lineSeparatorColor": null,
+      "modifiedItemForeground": null
+    },
+    "ActionButton": {
+      "hoverBackground": null,
+      "hoverBorderColor": null,
+      "pressedBackground": null,
+      "pressedBorderColor": null
+    },
+    "Button": {
+      "arc": null,
+      "foreground": null,
+      "startBackground": null,
+      "endBackground": null,
+      "startBorderColor": null,
+      "endBorderColor": null,
+      "shadowColor": null,
+
+      "default": {
+        "startBackground": null,
+        "endBackground": null,
+        "startBorderColor": null,
+        "endBorderColor": null,
+        "shadowColor": null,
+        "foreground": null
+      }
+    },
+    "Borders": {
+      "color": null,
+      "ContrastBorderColor": null
+    },
+    "CheckBox": {
+      "background": null,
+      "foreground": null
+    },
+    "ComboBox": {
+      "background":null,
+      "nonEditableBackground": null,
+      "ArrowButton": {
+        "background": null,
+        "iconColor": null,
+        "disabledIconColor": null,
+        "nonEditableBackground": null
+      }
+    },
+    "ComboPopup.border": null,
+    "CompletionPopup": {
+      "matchForeground": null,
+      "matchSelectionForeground": null
+    },
+    "Component": {
+      "errorFocusColor": null,
+      "inactiveErrorFocusColor": null,
+      "warningFocusColor": null,
+      "inactiveWarningFocusColor": null,
+      "iconColor": null,
+      "hoverIconColor": null
+    },
+    "Counter": {
+      "background": null,
+      "foreground": null
+    },
+    "DragAndDrop": {
+      "areaForeground": null,
+      "areaBackground": null,
+      "areaBorderColor": null
+    },
+    "Editor": {
+      "shortcutForeground": null
+    },
+    "EditorPane.inactiveBackground": null,
+    "EditorTabs": {
+      "selectedForeground": null,
+      "selectedBackground": null,
+      "underlineColor": null,
+      "inactiveMaskColor": null,
+      "borderColor": null
+    },
+    "Link": {
+      "activeForeground": null,
+      "hoverForeground": null,
+      "pressedForeground": null,
+      "visitedForeground": null
+    },
+    "Menu.borderColor": null,
+    "MenuBar.borderColor": null,
+    "NavBar.borderColor": null,
+    "Notification": {
+      "background": null,
+      "borderColor": null,
+      "errorForeground": null,
+      "errorBackground": null,
+      "errorBorderColor": null,
+      "MoreButton.innerBorderColor": null,
+      "ToolWindow": {
+        "informativeForeground": null,
+        "informativeBackground": null,
+        "informativeBorderColor": null,
+        "warningForeground": null,
+        "warningBackground": null,
+        "warningBorderColor": null,
+        "errorForeground": null,
+        "errorBackground": null,
+        "errorBorderColor": null
+      }
+    },
+    "ParameterInfo": {
+      "background": null,
+      "infoForeground": null,
+      "currentOverloadBackground": null,
+      "currentParameterForeground": null
+    },
+    "Popup": {
+      "borderColor": false,
+      "Toolbar.borderColor": null,
+      "Header.activeBackground": null,
+      "Header.inactiveBackground": null,
+      "Advertiser": {
+        "borderColor": null,
+        "borderInsets": null
+      }
+    },
+    "PopupMenu": {
+      "borderWidth": null,
+      "borderInsets": null
+    },
+    "ProgressBar": {
+      "trackColor": null,
+      "progressColor": null,
+      "indeterminateStartColor": null,
+      "indeterminateEndColor": null,
+      "failedColor": null,
+      "failedEndColor": null,
+      "passedColor": null,
+      "passedEndColor": null
+    },
+    "SearchEverywhere": {
+      "Header.background": null,
+      "Tab": {
+        "selectedForeground": null,
+        "selectedBackground": null
+      },
+      "SearchField": {
+        "borderColor": null
+      }
+    },
+    "SearchMatch": {
+      "startBackground": null,
+      "endBackground": null
+    },
+    "SpeedSearch": {
+      "foreground": null,
+      "borderColor": null,
+      "errorForeground": null
+    },
+    "StatusBar.borderColor": null,
+    "TabbedPane": {
+      "background": null,
+      "underlineColor": null,
+      "disabledUnderlineColor": null,
+      "contentAreaColor": null
+    },
+    "TableHeader.cellBorder": null,
+    "Table.stripeColor": null,
+    "TextArea": {
+      "selectionBackground": null
+    },
+    "TextField": {
+      "selectionBackground": null
+    },
+    "ToggleButton": {
+      "onForeground": null,
+      "onBackground": null,
+      "offForeground": null,
+      "offBackground": null
+    },
+    "ToolWindow": {
+      "Header": {
+        "background": null,
+        "borderColor": null,
+        "inactiveBackground": null
+      },
+      "HeaderTab": {
+        "selectedBackground": null,
+        "selectedInactiveBackground": null,
+        "hoverBackground": null,
+        "hoverInactiveBackground": null
+      },
+      "Button": {
+        "hoverBackground": null,
+        "selectedBackground": null,
+        "selectedForeground": null
+      }
+    },
+    "Tree": {
+      "rowHeight": null,
+      "foreground": null,
+      "selectionBackground": null,
+      "selectionInactiveBackground": null
+    },
+    "ValidationTooltip": {
+      "errorBackground": null,
+      "errorBorderColor": null,
+      "warningBackground": null,
+      "warningBorderColor": null
+    },
+    "VersionControl": {
+      "Log.Commit": {
+        "currentBranchBackground": null,
+        "unmatchedForeground": null
+      },
+      "FileHistory.Commit.selectedBranchBackground": null
+    },
+    "WelcomeScreen": {
+      "Projects.selectionInactiveBackground": null,
+      "separatorColor": null
+    },
+    "Viewport": {
+      "background": null
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions.Grey": null,
+      "Actions.Red": null,
+      "Actions.Yellow": null,
+      "Actions.Green": null,
+      "Actions.Blue": null,
+      "Actions.GreyInline.Dark": null,
+      "Objects.Grey": null,
+      "Objects.RedStatus": null,
+      "Objects.Red": null,
+      "Objects.Pink": null,
+      "Objects.Yellow": null,
+      "Objects.Green": null,
+      "Objects.Blue": null,
+      "Objects.Purple": null,
+      "Objects.BlackText": null,
+      "Objects.YellowDark": null,
+      "Checkbox.Background.Default.Dark": null,
+      "Checkbox.Border.Default.Dark": null,
+      "Checkbox.Foreground.Selected.Dark": null,
+      "Checkbox.Focus.Wide.Dark": null,
+      "Checkbox.Focus.Thin.Default.Dark": null,
+      "Checkbox.Focus.Thin.Selected.Dark": null,
+      "Checkbox.Background.Disabled.Dark": null,
+      "Checkbox.Border.Disabled.Dark": null,
+      "Checkbox.Foreground.Disabled.Dark": null
+    }
+  }
+}

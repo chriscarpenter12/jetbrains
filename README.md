@@ -52,3 +52,10 @@ If you'd like to report a bug with one of the color schemes, please raise an iss
 Have a wonderful day!
 
 Dayle.
+
+### Generating IntelliJ Themes
+
+Run the included node script to process all the color scheme xml files to generate the UI theme json files that IntelliJ 2019.1 supports.
+```
+npm run generate-themes
+```
