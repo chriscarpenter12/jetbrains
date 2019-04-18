@@ -113,7 +113,6 @@ function generateThemeJson(fileName, colorFileJson) {
   theme['ui']['Button']['endBorderColor'] = getColorValue(colorFileJson, 'scheme.colors.option', 'GUTTER_BACKGROUND');
   theme['ui']['Button']['shadowColor'] = getColorValue(colorFileJson, 'scheme.colors.option', 'GUTTER_BACKGROUND');
 
-  // theme['ui']['Borders']['color'] = getColorValue(colorFileJson, 'scheme.colors.option', 'INDENT_GUIDE');
   theme['ui']['Borders']['color'] = getColorValue(colorFileJson, 'scheme.colors.option', 'GUTTER_BACKGROUND');
   theme['ui']['Borders']['ContrastBorderColor'] = getColorValue(colorFileJson, 'scheme.colors.option', 'GUTTER_BACKGROUND');
 
@@ -121,12 +120,15 @@ function generateThemeJson(fileName, colorFileJson) {
   theme['ui']['ComboBox']['ArrowButton']['nonEditableBackground'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
   theme['ui']['ComboPopup.border'] = getColorValue(colorFileJson, 'scheme.colors.option', 'GUTTER_BACKGROUND');
 
+  theme['ui']['Editor']['background'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
   theme['ui']['EditorPane.inactiveBackground'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
-  theme['ui']['EditorTabs']['selectedForeground'] = getColorValue(colorFileJson, 'scheme.colors.option', 'SELECTION_FOREGROUND');
+  theme['ui']['EditorTabs']['selectedForeground'] = getColorValue(colorFileJson, 'scheme.colors.option', 'LINE_NUMBERS_COLOR');
   theme['ui']['EditorTabs']['selectedBackground'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
   theme['ui']['EditorTabs']['underlineColor'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
   theme['ui']['EditorTabs']['inactiveMaskColor'] = getColorValue(colorFileJson, 'scheme.colors.option', 'INDENT_GUIDE');
-  theme['ui']['EditorTabs']['borderColor'] = getColorValue(colorFileJson, 'scheme.colors.option', 'GUTTER_BACKGROUND');
+  theme['ui']['EditorTabs']['borderColor'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
+
+  theme['ui']['GutterTooltip.lineSeparatorColor'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
 
   theme['ui']['Link']['activeForeground'] = getColorValue(colorFileJson, 'scheme.colors.option', 'SELECTION_BACKGROUND');
   theme['ui']['Link']['hoverForeground'] = getColorValue(colorFileJson, 'scheme.colors.option', 'SELECTION_BACKGROUND');
@@ -149,10 +151,12 @@ function generateThemeJson(fileName, colorFileJson) {
   theme['ui']['ProgressBar']['indeterminateStartColor'] = getColorValue(colorFileJson, 'scheme.colors.option', 'SELECTION_BACKGROUND');
   theme['ui']['ProgressBar']['indeterminateEndColor'] = getColorValue(colorFileJson, 'scheme.attributes.option', 'LINE_PARTIAL_COVERAGE');
 
-  // theme['ui']['SearchEverywhere']['Header.background'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
-  theme['ui']['SearchEverywhere']['Tab']['selectedForeground'] = getColorValue(colorFileJson, 'scheme.colors.option', 'SELECTION_FOREGROUND');
-  theme['ui']['SearchEverywhere']['Tab']['selectedBackground'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
+  theme['ui']['SearchEverywhere']['Header.background'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
+  theme['ui']['SearchEverywhere']['Tab']['selectedForeground'] = getColorValue(colorFileJson, 'scheme.colors.option', 'LINE_NUMBERS_COLOR');
+  theme['ui']['SearchEverywhere']['Tab']['selectedBackground'] = getColorValue(colorFileJson, 'scheme.colors.option', 'GUTTER_BACKGROUND');
   theme['ui']['SearchEverywhere']['SearchField']['borderColor'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
+
+  theme['ui']['SpeedSearch']['background'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
 
   theme['ui']['ToolWindow']['Header']['borderColor'] = getColorValue(colorFileJson, 'scheme.colors.option', 'GUTTER_BACKGROUND');
   theme['ui']['ToolWindow']['HeaderTab']['selectedBackground'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');

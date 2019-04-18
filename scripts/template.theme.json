@@ -96,6 +96,7 @@
       "areaBorderColor": null
     },
     "Editor": {
+      "background": null,
       "shortcutForeground": null
     },
     "EditorPane.inactiveBackground": null,
@@ -106,6 +107,7 @@
       "inactiveMaskColor": null,
       "borderColor": null
     },
+    "GutterTooltip.lineSeparatorColor": null,
     "Link": {
       "activeForeground": null,
       "hoverForeground": null,
@@ -177,6 +179,9 @@
     "SearchMatch": {
       "startBackground": null,
       "endBackground": null
+    },
+    "SpeedSearch": {
+      "background": null
     },
     "SpeedSearch": {
       "foreground": null,

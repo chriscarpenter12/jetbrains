@@ -64,14 +64,18 @@
       }
     },
     "ComboPopup.border": "#15181b",
+    "Editor": {
+      "background": "#191d21"
+    },
     "EditorPane.inactiveBackground": "#191d21",
     "EditorTabs": {
-      "selectedForeground": "#ffffff",
+      "selectedForeground": "#3a434d",
       "selectedBackground": "#191d21",
       "underlineColor": "#191d21",
       "inactiveMaskColor": "#242a2f",
-      "borderColor": "#15181b"
+      "borderColor": "#191d21"
     },
+    "GutterTooltip.lineSeparatorColor": "#191d21",
     "Link": {
       "activeForeground": "#077cf9",
       "hoverForeground": "#077cf9",
@@ -96,13 +100,17 @@
       "indeterminateEndColor": "#12404b"
     },
     "SearchEverywhere": {
+      "Header.background": "#191d21",
       "Tab": {
-        "selectedForeground": "#ffffff",
-        "selectedBackground": "#191d21"
+        "selectedForeground": "#3a434d",
+        "selectedBackground": "#15181b"
       },
       "SearchField": {
         "borderColor": "#191d21"
       }
+    },
+    "SpeedSearch": {
+      "background": "#191d21"
     },
     "StatusBar.borderColor": "#242a2f",
     "ToolWindow": {
