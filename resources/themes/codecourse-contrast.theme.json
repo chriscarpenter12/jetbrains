@@ -123,7 +123,6 @@
       }
     },
     "Tree": {
-      "rowHeight": 22,
       "selectionInactiveBackground": "#05080a"
     },
     "WelcomeScreen": {
