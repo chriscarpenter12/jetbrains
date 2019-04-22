@@ -162,7 +162,7 @@ function generateThemeJson(fileName, colorFileJson) {
   theme['ui']['ToolWindow']['HeaderTab']['selectedBackground'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
   theme['ui']['ToolWindow']['HeaderTab']['selectedInactiveBackground'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
 
-  theme['ui']['Tree']['rowHeight'] = 24;
+  theme['ui']['Tree']['rowHeight'] = 22;
   // theme['ui']['Tree']['foreground'] = getColorValue(colorFileJson, 'scheme.colors.option', 'SELECTION_FOREGROUND');
   // theme['ui']['Tree']['selectionBackground'] = getColorValue(colorFileJson, 'scheme.attributes.option', 'INLINE_PARAMETER_HINT', 'BACKGROUND');
   theme['ui']['Tree']['selectionInactiveBackground'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
