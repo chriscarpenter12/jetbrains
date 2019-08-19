@@ -55,7 +55,7 @@ Dayle.
 
 ### Generating IntelliJ Themes
 
-Run the included node script to process all the color scheme xml files to generate the UI theme json files that IntelliJ 2019.1 supports.
+Run the included node script to process all the color scheme xml files to generate the UI theme json files that IntelliJ 2019.2 supports.
 ```
 npm run generate-themes
 ```

@@ -64,16 +64,23 @@
       }
     },
     "ComboPopup.border": "#182f33",
+    "DefaultTabs": {
+      "background": "#23454b",
+      "underlineColor": "#43bdb2",
+      "underlinedTabBackground": "#1b353a",
+      "underlinedTabForeground": "#b1c7cc"
+    },
     "Editor": {
       "background": "#1b353a"
     },
     "EditorPane.inactiveBackground": "#1b353a",
     "EditorTabs": {
-      "selectedForeground": "#33656e",
-      "selectedBackground": "#1b353a",
+      "background": "#23454b",
+      "hoverMaskColor": "#1b353a",
+      "inactiveUnderlineColor": "#1b353a",
       "underlineColor": "#1b353a",
-      "inactiveMaskColor": "#23454b",
-      "borderColor": "#1b353a"
+      "underlinedTabBackground": "#1b353a",
+      "underlinedTabForeground": "#b1c7cc"
     },
     "GutterTooltip.lineSeparatorColor": "#1b353a",
     "Link": {
@@ -112,7 +119,10 @@
     "SpeedSearch": {
       "background": "#1b353a"
     },
-    "StatusBar.borderColor": "#23454b",
+    "StatusBar": {
+      "borderColor": "#23454b",
+      "hoverBackground": "#1b353a"
+    },
     "ToolWindow": {
       "Header": {
         "borderColor": "#182f33"

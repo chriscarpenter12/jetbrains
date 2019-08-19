@@ -120,13 +120,19 @@ function generateThemeJson(fileName, colorFileJson) {
   theme['ui']['ComboBox']['ArrowButton']['nonEditableBackground'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
   theme['ui']['ComboPopup.border'] = getColorValue(colorFileJson, 'scheme.colors.option', 'GUTTER_BACKGROUND');
 
+  theme['ui']['DefaultTabs']['background'] = getColorValue(colorFileJson, 'scheme.colors.option', 'INDENT_GUIDE');
+  theme['ui']['DefaultTabs']['underlineColor'] = getColorValue(colorFileJson, 'scheme.colors.option', 'SELECTION_BACKGROUND');
+  theme['ui']['DefaultTabs']['underlinedTabBackground'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
+  theme['ui']['DefaultTabs']['underlinedTabForeground'] = getColorValue(colorFileJson, 'scheme.colors.option', 'CARET_COLOR');
+
   theme['ui']['Editor']['background'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
   theme['ui']['EditorPane.inactiveBackground'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
-  theme['ui']['EditorTabs']['selectedForeground'] = getColorValue(colorFileJson, 'scheme.colors.option', 'LINE_NUMBERS_COLOR');
-  theme['ui']['EditorTabs']['selectedBackground'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
+  theme['ui']['EditorTabs']['background'] = getColorValue(colorFileJson, 'scheme.colors.option', 'INDENT_GUIDE');
+  theme['ui']['EditorTabs']['hoverMaskColor'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
+  theme['ui']['EditorTabs']['inactiveUnderlineColor'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
   theme['ui']['EditorTabs']['underlineColor'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
-  theme['ui']['EditorTabs']['inactiveMaskColor'] = getColorValue(colorFileJson, 'scheme.colors.option', 'INDENT_GUIDE');
-  theme['ui']['EditorTabs']['borderColor'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
+  theme['ui']['EditorTabs']['underlinedTabBackground'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
+  theme['ui']['EditorTabs']['underlinedTabForeground'] = getColorValue(colorFileJson, 'scheme.colors.option', 'CARET_COLOR');
 
   theme['ui']['GutterTooltip.lineSeparatorColor'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
 
@@ -140,7 +146,6 @@ function generateThemeJson(fileName, colorFileJson) {
   theme['ui']['Menu.borderColor'] = getColorValue(colorFileJson, 'scheme.colors.option', 'GUTTER_BACKGROUND');
   theme['ui']['MenuBar.borderColor'] = getColorValue(colorFileJson, 'scheme.colors.option', 'INDENT_GUIDE');
   theme['ui']['NavBar.borderColor'] = getColorValue(colorFileJson, 'scheme.colors.option', 'INDENT_GUIDE');
-  theme['ui']['StatusBar.borderColor'] = getColorValue(colorFileJson, 'scheme.colors.option', 'INDENT_GUIDE');
 
   theme['ui']['Popup']['borderColor'] = getColorValue(colorFileJson, 'scheme.colors.option', 'GUTTER_BACKGROUND');
   theme['ui']['Popup']['Toolbar.borderColor'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
@@ -157,6 +162,9 @@ function generateThemeJson(fileName, colorFileJson) {
   theme['ui']['SearchEverywhere']['SearchField']['borderColor'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
 
   theme['ui']['SpeedSearch']['background'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
+
+  theme['ui']['StatusBar']['borderColor'] = getColorValue(colorFileJson, 'scheme.colors.option', 'INDENT_GUIDE');
+  theme['ui']['StatusBar']['hoverBackground'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');
 
   theme['ui']['ToolWindow']['Header']['borderColor'] = getColorValue(colorFileJson, 'scheme.colors.option', 'GUTTER_BACKGROUND');
   theme['ui']['ToolWindow']['HeaderTab']['selectedBackground'] = getColorValue(colorFileJson, 'scheme.colors.option', 'DOCUMENTATION_COLOR');

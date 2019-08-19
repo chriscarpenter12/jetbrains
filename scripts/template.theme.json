@@ -45,7 +45,6 @@
       "startBorderColor": null,
       "endBorderColor": null,
       "shadowColor": null,
-
       "default": {
         "startBackground": null,
         "endBackground": null,
@@ -64,7 +63,7 @@
       "foreground": null
     },
     "ComboBox": {
-      "background":null,
+      "background": null,
       "nonEditableBackground": null,
       "ArrowButton": {
         "background": null,
@@ -90,6 +89,13 @@
       "background": null,
       "foreground": null
     },
+    "DefaultTabs": {
+      "background": null,
+      "hoverBackground": null,
+      "underlineColor": null,
+      "underlinedTabBackground": null,
+      "underlinedTabForeground": null
+    },
     "DragAndDrop": {
       "areaForeground": null,
       "areaBackground": null,
@@ -101,11 +107,12 @@
     },
     "EditorPane.inactiveBackground": null,
     "EditorTabs": {
-      "selectedForeground": null,
-      "selectedBackground": null,
+      "background": null,
+      "hoverMaskColor": null,
+      "inactiveUnderlineColor": null,
       "underlineColor": null,
-      "inactiveMaskColor": null,
-      "borderColor": null
+      "underlinedTabBackground": null,
+      "underlinedTabForeground": null
     },
     "GutterTooltip.lineSeparatorColor": null,
     "Link": {
@@ -188,7 +195,10 @@
       "borderColor": null,
       "errorForeground": null
     },
-    "StatusBar.borderColor": null,
+    "StatusBar": {
+      "borderColor": null,
+      "hoverBackground": null
+    },
     "TabbedPane": {
       "background": null,
       "underlineColor": null,
